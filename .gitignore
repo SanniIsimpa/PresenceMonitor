@@ -1,0 +1,19 @@
+# Python environment files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Project specific junk
+runs/
+*.log
+.vscode/
+.idea/
