@@ -5,6 +5,9 @@ An AI-powered security utility that leverages computer vision to provide automat
 ## 💡 Why This Project?
 In remote or open-office environments, workstation privacy is often compromised when a user leaves their desk unattended. Manual screen locking is easily forgotten, creating security gaps. This project transforms the workstation into an intelligent, autonomous agent that detects human presence and secures the system the moment the user steps away.
 
+[Presence Monitor Demo](https://github.com/SanniIsimpa/PresenceMonitor/blob/main/Presence_monitor.gif)
+---
+
 ## 🛠 Engineering Challenges & Solutions
 
 ### 1. The Stability Problem (Stochastic Detection)
