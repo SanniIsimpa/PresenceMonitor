@@ -17,4 +17,10 @@ runs/
 *.log
 .vscode/
 .idea/
+
+# Data & Models
+*.pt
+*.mp4
+*.avi
+*.mov
 *.pt
