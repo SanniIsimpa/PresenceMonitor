@@ -11,7 +11,7 @@ In remote or open-office environments, workstation privacy is often compromised 
 ## 🛠 Engineering Challenges & Solutions
 
 ### 1. The Stability Problem (Stochastic Detection)
-* **Challenge:** Raw model outputs from YOLOv8 are inherently stochastic—they flicker due to lighting changes, movement, or occlusion, which would cause the system to trigger constant, annoying "Lock/Unlock" cycles.
+* **Challenge:** Raw model outputs from YOLOv8 are inherently stochastic, they flicker due to lighting changes, movement, or occlusion, which would cause the system to trigger constant, annoying "Lock/Unlock" cycles.
 * **Solution:** I implemented a **temporal debouncing algorithm**. The system requires the target to be "absent" for a configurable threshold (e.g., 3 seconds of continuous negative detection) before triggering a lock. This effectively filters out transient noise and ensures a smooth, reliable user experience.
 
 ### 2. UI Responsiveness
